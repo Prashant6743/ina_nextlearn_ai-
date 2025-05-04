@@ -6,7 +6,7 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' }); // Using Inter as default sans-serif
 
 export const metadata: Metadata = {
-  title: 'nextlearn Ai', // Updated title
+  title: 'ina the nexlear ai', // Updated title
   description: 'Your personal AI motivation coach', // Updated description
 };
 

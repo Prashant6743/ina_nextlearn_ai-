@@ -109,7 +109,7 @@ export function ChatInterface() {
          clearTimeout(timeoutRef.current);
        }
     };
-  }, [toast]); // Added toast dependency
+  }, [toast, isListening]); // Added isListening dependency to re-attach timeout logic if needed
 
 
   // Function to start listening
@@ -228,7 +228,7 @@ export function ChatInterface() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-background to-secondary/10 p-4">
-       <h1 className="text-4xl font-bold text-primary mb-8">nextlearn Ai</h1>
+       <h1 className="text-4xl font-bold text-primary mb-8">ina the nexlear ai</h1>
        <Card className="w-full max-w-lg shadow-xl rounded-lg">
           <CardHeader className="text-center">
              <CardTitle className="text-2xl font-semibold">How can I motivate you today?</CardTitle>
