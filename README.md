@@ -1,5 +1,8 @@
 # ina the nexlear ai
 
+this is ai voice assitance specially design for study platform where it diverge you any question to study related and only focus is to motivate u ...
+it work on voice only 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 It includes:
