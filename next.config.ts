@@ -1,3 +1,4 @@
+
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
@@ -17,6 +18,12 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+  },
+   experimental: {
+    serverActions: {
+      // Allow returning streams and Zod types from Server Actions.
+      enableGenkit: true,
+    },
   },
 };
 
